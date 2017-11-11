@@ -2,6 +2,12 @@ const fs = require('fs');
 const json2csv = require('json-to-csv');
 
 (async () => {
+	if (!fs.existsSync(`${__dirname}/temp`)){
+		fs.mkdirSync(`${__dirname}/temp`);
+	}
+	if (!fs.existsSync(`${__dirname}/release`)){
+		fs.mkdirSync(`${__dirname}/release`);
+	}
 	const tempArr = [];
 	fs.readdirSync(`${__dirname}/temp`).forEach(file => {
 		const d = new Date();
