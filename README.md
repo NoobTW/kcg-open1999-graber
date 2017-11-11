@@ -6,16 +6,21 @@ Automatically grab and divide open1999 data from original Open1999 API.
 - [Node.js 7.6.0 or above](https://nodejs.org/en/download/)
 
 ## Installation
+
+### Clone with Git
 ```bash
 git clone git@github.com:NoobTW/kcg-open1999-graber
 cd kcg-open1999-graber
 npm install
 ```
 
+### Or Download Releases
+Download [latest release](/releases/latest), extract it, and run `npm install` in that folder.
+
 ## Getting Started
 
-- [hourly.js](./blob/master/hourly.js): grab data from Open1999 API, and save it in a folder temporarily.
-- [daily.js](/blob/master/daily.js): divide data from temporary files, generate daily (the last day) file in CSV and JSON format, and clean temoporary files.
+- [hourly.js](/hourly.js): grab data from Open1999 API, and save it in a folder temporarily.
+- [daily.js](/daily.js): divide data from temporary files, generate daily (the last day) file in CSV and JSON format, and clean temoporary files.
 
 ### Usage
 
