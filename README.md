@@ -9,7 +9,7 @@ Automatically grab and divide open1999 data from original Open1999 API.
 
 ### Clone with Git
 ```bash
-git clone git@github.com:NoobTW/kcg-open1999-graber
+git clone https://github.com/NoobTW/kcg-open1999-graber.git
 cd kcg-open1999-graber
 npm install
 ```
