@@ -1,0 +1,23 @@
+{
+  "name": "kcg-open1999-graber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "daily.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NoobTW/kcg-open1999-graber.git"
+  },
+  "author": "NoobTW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoobTW/kcg-open1999-graber/issues"
+  },
+  "homepage": "https://github.com/NoobTW/kcg-open1999-graber#readme",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "json-to-csv": "^1.0.0",
+  }
+}
