@@ -17,6 +17,7 @@ const json2csv = require('json-to-csv');
 			Array.from(data).forEach(dd => {
 				tempArr.unshift(dd);
 			});
+			fs.unlinkSync(`${__dirname}/temp/${file}`);
 		}
 	});
 	const realArr = [];
