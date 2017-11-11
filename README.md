@@ -15,7 +15,7 @@ npm install
 ```
 
 ### Or Download Releases
-Download [latest release](/releases/latest), extract it, and run `npm install` in that folder.
+Download [latest release](https://github.com/NoobTW/kcg-open1999-graber/releases/latest), extract it, and run `npm install` in that folder.
 
 ## Getting Started
 
