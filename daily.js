@@ -23,7 +23,6 @@ const json2csv = require('json-to-csv');
 	const realArr = [];
 	const realArrMarker = [];
 	const da = new Date();
-	console.log(da.getDate() - 1);
 	Array.from(tempArr).forEach(d => {
 		const dd = new Date(d.Cre_Date_.split(' ')[0]);
 		if(dd.getDate() === da.getDate()-1 && dd.getMonth() === da.getMonth() && !realArrMarker[d.FileNo_]){
